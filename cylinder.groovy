@@ -28,4 +28,15 @@ CSG movedFifth = fifthCylinder.movez(70)
 CSG sixthCylinder = new Cylinder(11,2,10,(int)30).toCSG()
 CSG movedSixth = sixthCylinder.movez(82)
 
-return[base, movedSecondLevel, ring, secondRing, thirdLevel, thirdRing, movedFourth, movedFifth, movedSixth]
+CSG masterJack = base.union(movedSecondLevel.union(ring.union(secondRing.union(thirdLevel.union(thirdRing.union(movedFourth.union(movedFifth.union(movedSixth))))))))
+CSG movedMaster = masterJack.movey(40)
+
+CSG box = new Cube (25,25,100).toCSG()
+CSG box2 = box.movez(50)
+CSG movedBox = box2.movex(30)
+
+CSG casing = box2.difference(masterJack)
+CSG movedCasing = casing.movey(90) 
+
+
+return[movedBox, movedCasing, base, movedSecondLevel, ring, secondRing, thirdLevel, thirdRing, movedFourth, movedFifth, movedSixth, movedMaster]
