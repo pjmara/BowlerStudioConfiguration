@@ -6,5 +6,16 @@
     "jogKinslider": "slider",
     "jogKiny": "y",
     "jogKinx": "x"
+  },
+  "studio-open-git": {
+    "https://gist.github.com/e88623551f93a761a08b90df59add731.git:newControlNoSpeed.groovy": [
+      "https://gist.github.com/e88623551f93a761a08b90df59add731.git",
+      "newControlNoSpeed.groovy"
+    ]
+  },
+  "BowlerStudioConfigs": {
+    "firstVersion": "0.20.4",
+    "skinBranch": "0.20.4",
+    "skinRepo": "https://github.com/madhephaestus/BowlerStudioImageAssets.git"
   }
 }
