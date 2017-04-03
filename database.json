@@ -22,7 +22,7 @@
   },
   "BowlerStudioConfigs": {
     "firstVersion": "0.20.4",
-    "skinBranch": "0.20.8",
+    "skinBranch": "0.20.4",
     "skinRepo": "https://github.com/madhephaestus/BowlerStudioImageAssets.git"
   }
 }
