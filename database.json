@@ -1,11 +1,11 @@
 {
   "studio-open-web": {},
   "Xbox 360 Wired Controller": {
-    "jogKinz": "1",
+    "jogKinz": "2",
     "jogLink": "19",
-    "jogKinslider": "0",
-    "jogKiny": "2",
-    "jogKinx": "3"
+    "jogKinslider": "1",
+    "jogKiny": "3",
+    "jogKinx": "4"
   },
   "Saitek PLC Saitek P2600 Rumble Force Pad": {
     "jogKinz": "rz",
@@ -15,10 +15,6 @@
     "jogKinx": "x"
   },
   "studio-open-git": {
-    "https://github.com/madhephaestus/laser-cut-robot.git:neckCad.groovy": [
-      "https://github.com/madhephaestus/laser-cut-robot.git",
-      "neckCad.groovy"
-    ],
     "https://github.com/DotSlash-CTF/Bulldog.git:FullDog/Dog.xml": [
       "https://github.com/DotSlash-CTF/Bulldog.git",
       "FullDog/Dog.xml"
